@@ -414,9 +414,20 @@ document.getElementById("exportWord")?.addEventListener("click", async () => {
 
 //-------------------------------------------------
 
-const settingsIcon = document.getElementById("settingsIcon");
-const settingsModal = document.getElementById("settingsModal");
+document.addEventListener('DOMContentLoaded', () => {
+  const settingsIcon = document.getElementById('settingsIcon');
+  const settingsModal = document.getElementById('settingsModal');
 
-settingsIcon.addEventListener("click", () => {
-  settingsModal.style.display = "flex";
+  if (!settingsIcon) {
+    console.warn('settingsIcon no encontrado en esta página.');
+    return;
+  }
+  if (!settingsModal) {
+    console.warn('settingsModal no encontrado en esta página.');
+    return;
+  }
+
+  settingsIcon.addEventListener('click', () => {
+    settingsModal.style.display = 'flex';
+  });
 });
