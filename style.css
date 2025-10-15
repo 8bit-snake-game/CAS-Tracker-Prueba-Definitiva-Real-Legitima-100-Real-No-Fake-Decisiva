@@ -279,20 +279,21 @@ footer.site-footer {
 /* === ÍCONO DE ENGRANAJE === */
 .settings-icon {
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
   font-size: 28px;
-  cursor: pointer; /* 👈 Esto hace que salga la manita */
-  background-color: #e6eaf3;
-  border-radius: 50%;
-  padding: 10px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
-  transition: background-color 0.3s;
-  z-index: 10000; /* 👈 fuerza a estar encima de todo */
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer; /* 👈 esto hace que el cursor sea la manita */
+  z-index: 1000; /* 👈 esto asegura que esté por encima de todo */
+  user-select: none; /* evita que se seleccione el ícono */
 }
 
 .settings-icon:hover {
   background-color: #cfd8f0;
+  transform: rotate(30deg);
+  transition: transform 0.3s ease;
 }
 
 /* === FONDO OSCURECIDO (modal) === */
