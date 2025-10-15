@@ -278,6 +278,7 @@ footer.site-footer {
 
 /* === ÍCONO DE ENGRANAJE === */
 .settings-icon {
+  z-index: 1000;
   position: fixed;
   bottom: 20px;
   right: 20px;
