@@ -292,8 +292,8 @@ footer.site-footer {
 
 .settings-icon:hover {
   background-color: #cfd8f0;
-  transform: rotate(45deg);
-  transition: transform 0.8s ease;
+  transform: rotate(60deg);
+  transition: transform 1.2s ease;
 }
 
 /* === FONDO OSCURECIDO (modal) === */
