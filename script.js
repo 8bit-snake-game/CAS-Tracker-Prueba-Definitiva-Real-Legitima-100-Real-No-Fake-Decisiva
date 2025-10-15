@@ -412,3 +412,9 @@ document.getElementById("exportWord")?.addEventListener("click", async () => {
   saveAs(blob, "Reflexiones.docx");
 });
 
+//-------------------------------------------------
+
+const toggle = document.getElementById('themeToggle');
+toggle.addEventListener('click', () => {
+  toggle.classList.toggle('active');
+});
