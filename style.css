@@ -274,3 +274,33 @@ footer.site-footer {
     gap: 20px;
   }
 }
+---------------------------------------
+
+.theme-toggle {
+  width: 55px;
+  height: 30px;
+  background-color: #c7d8f9; /* azul claro */
+  border-radius: 30px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.toggle-circle {
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+/* esta clase la usaremos para que la bolita se mueva */
+.theme-toggle.active .toggle-circle {
+  transform: translateX(25px);
+}
