@@ -414,7 +414,9 @@ document.getElementById("exportWord")?.addEventListener("click", async () => {
 
 //-------------------------------------------------
 
-const toggle = document.getElementById('themeToggle');
-toggle.addEventListener('click', () => {
-  toggle.classList.toggle('active');
+const settingsIcon = document.getElementById("settingsIcon");
+const settingsModal = document.getElementById("settingsModal");
+
+settingsIcon.addEventListener("click", () => {
+  settingsModal.style.display = "flex";
 });
