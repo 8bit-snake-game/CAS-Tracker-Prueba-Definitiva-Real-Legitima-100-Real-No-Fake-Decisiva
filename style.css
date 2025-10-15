@@ -308,6 +308,10 @@ footer.site-footer {
   z-index: 999;
 }
 
+.settings-modal[style*="display: flex"] {
+  pointer-events: auto; /* 👈 cuando se muestra, sí recibe clics */
+}
+
 /* === CONTENEDOR DE LA VENTANA === */
 .settings-content {
   background-color: #ffffff;
