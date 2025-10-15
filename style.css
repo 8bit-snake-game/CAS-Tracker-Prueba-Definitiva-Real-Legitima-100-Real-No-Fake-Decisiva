@@ -292,7 +292,7 @@ footer.site-footer {
 
 .settings-icon:hover {
   background-color: #cfd8f0;
-  transform: rotate(30deg);
+  transform: rotate(90deg);
   transition: transform 0.3s ease;
 }
 
