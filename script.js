@@ -411,3 +411,4 @@ document.getElementById("exportWord")?.addEventListener("click", async () => {
   const blob = await Packer.toBlob(doc);
   saveAs(blob, "Reflexiones.docx");
 });
+
