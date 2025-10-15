@@ -276,31 +276,43 @@ footer.site-footer {
 }
 ---------------------------------------
 
-.theme-toggle {
-  width: 55px;
-  height: 30px;
-  background-color: #c7d8f9; /* azul claro */
-  border-radius: 30px;
+/* === ÍCONO DE ENGRANAJE === */
+.settings-icon {
   position: fixed;
-  top: 20px;
+  bottom: 20px;
   right: 20px;
+  font-size: 28px;
   cursor: pointer;
-  transition: background-color 0.3s;
-  display: flex;
-  align-items: center;
-  padding: 4px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
-}
-
-.toggle-circle {
-  width: 22px;
-  height: 22px;
-  background-color: #fff;
+  background-color: #e6eaf3;
   border-radius: 50%;
-  transition: transform 0.3s;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
 }
 
-/* esta clase la usaremos para que la bolita se mueva */
-.theme-toggle.active .toggle-circle {
-  transform: translateX(25px);
+.settings-icon:hover {
+  background-color: #cfd8f0;
+}
+
+/* === FONDO OSCURECIDO (modal) === */
+.settings-modal {
+  display: none; /* oculto por defecto */
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* === CONTENEDOR DE LA VENTANA === */
+.settings-content {
+  background-color: #ffffff;
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s;
 }
