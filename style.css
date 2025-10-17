@@ -285,18 +285,15 @@ footer.site-footer {
   color: white;
   background: none;
   border: none;
-  cursor: pointer; /* 👈 esto hace que el cursor sea la manita */
-  z-index: 1000; /* 👈 esto asegura que esté por encima de todo */
-  user-select: none; /* evita que se seleccione el ícono */
-}
-
-.settings-icon:hover {
   margin: 5px 5px 0 0;
   padding: 6px 10px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
+  cursor: pointer; /* 👈 esto hace que el cursor sea la manita */
+  z-index: 1000; /* 👈 esto asegura que esté por encima de todo */
+  user-select: none; /* evita que se seleccione el ícono */
 }
 
 /* === FONDO OSCURECIDO (modal) === */
