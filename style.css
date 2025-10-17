@@ -291,9 +291,12 @@ footer.site-footer {
 }
 
 .settings-icon:hover {
-  background-color: #cfd8f0;
-  transform: rotate(180deg);
-  transition: transform 1.5s ease;
+  margin: 5px 5px 0 0;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 /* === FONDO OSCURECIDO (modal) === */
