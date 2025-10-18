@@ -314,3 +314,24 @@ footer.site-footer {
   transition: all 0.3s;
 }
 
+@media (max-width:520px){
+  .config {
+    width: 50px;
+    height: 250px;
+    background: #00519c;
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgb(14 101 148 / 14%);
+    position: fixed;
+    top: 40px;
+    right:10px;
+  }
+}
+  
+ .config {
+  background: #00519c;
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgb(14 101 148 / 14%);
+  position: fixed;
+  top: 40px;
+  right:10px;
+}
