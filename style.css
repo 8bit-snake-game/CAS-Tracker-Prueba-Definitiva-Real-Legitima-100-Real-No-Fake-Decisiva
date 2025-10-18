@@ -297,6 +297,7 @@ footer.site-footer {
 /* === CONTENEDOR DE LA VENTANA === */
 .settings-content {
   background-color: #ffffff;
+  color: #000000;
   width: 400px;
   height: 250px;
   border-radius: 15px;
