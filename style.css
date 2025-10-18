@@ -278,22 +278,6 @@ footer.site-footer {
 
 /* === ÍCONO DE ENGRANAJE === */
 .settings-icon {
-  position: fixed;
-  top: 20px;
-  right: 320px;
-  font-size: 28px;
-  color: white;
-  background: none;
-  border: none;
-  margin: 5px 5px 0 0;
-  padding: 6px 10px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  cursor: pointer; /* 👈 esto hace que el cursor sea la manita */
-  z-index: 1000; /* 👈 esto asegura que esté por encima de todo */
-  user-select: none; /* evita que se seleccione el ícono */
 }
 
 /* === FONDO OSCURECIDO (modal) === */
@@ -309,9 +293,6 @@ footer.site-footer {
   z-index: 999;
 }
 
-.settings-modal[style*="display: flex"] {
-  pointer-events: auto; /* 👈 cuando se muestra, sí recibe clics */
-}
 
 /* === CONTENEDOR DE LA VENTANA === */
 .settings-content {
@@ -322,3 +303,14 @@ footer.site-footer {
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   transition: all 0.3s;
 }
+
+@media (max-width:520px){
+  .settings-content {
+  background-color: #ffffff;
+  width:350px;
+  height: 250px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: all 0.3s;
+}
+
