@@ -347,8 +347,8 @@ footer.site-footer {
 @media (max-width:520px){
 .close-settings {
   position: absolute;
-  top: 197px;
-  right: 24px;
+  top: 200px;
+  right: 20px;
   background: transparent;
   border: none;
   font-size: 1.6rem;
