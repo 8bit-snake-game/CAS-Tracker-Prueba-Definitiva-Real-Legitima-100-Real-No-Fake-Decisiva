@@ -431,3 +431,17 @@ document.addEventListener('DOMContentLoaded', () => {
     settingsModal.style.display = 'flex';
   });
 });
+
+const closeSettings = document.getElementById('closeSettings');
+if (closeSettings) {
+  closeSettings.addEventListener('click', () => {
+    settingsModal.style.display = 'none';
+  });
+}
+
+// Cerrar también si se hace click fuera del contenido
+settingsModal.addEventListener('click', (e) => {
+  if (e.target === settingsModal) {
+    settingsModal.style.display = 'none';
+  }
+});
