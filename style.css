@@ -314,6 +314,13 @@ footer.site-footer {
   right:10px;
 }
 
+.LogOutBtn{
+  position:fixed;
+  right: 290px;
+  top: 440px;
+  background:#ff4848 ;
+  color:#ffffff;
+}
 
 @media (max-width:520px){
   .settings-content {
