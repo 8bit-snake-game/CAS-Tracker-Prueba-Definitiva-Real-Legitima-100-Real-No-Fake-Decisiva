@@ -316,10 +316,44 @@ footer.site-footer {
 
 .LogOutBtn{
   position:fixed;
-  right: 290px;
+  right: 700px;
   top: 440px;
   background:#ff4848 ;
   color:#ffffff;
+  font-size: 1rem;
+}
+
+.close-settings {
+  position: absolute;
+  top: 240px;
+  right: 570px;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+@media (max-width:520px){
+.LogOutBtn{
+  position:fixed;
+  right: 130px;
+  top: 440px;
+  background:#ff4848 ;
+  color:#ffffff;
+  font-size: 1rem;
+}
+}
+
+@media (max-width:520px){
+.close-settings {
+  position: absolute;
+  top: 240px;
+  right: 26px;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
 }
 
 @media (max-width:520px){
@@ -330,6 +364,7 @@ footer.site-footer {
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   transition: all 0.3s;
+}
 }
 
 @media (max-width:520px){
